@@ -17,10 +17,11 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         v_mov = Input.GetAxisRaw("Vertical");
         h_mov = Input.GetAxisRaw("Horizontal");
-        p_rbody.linearVelocity = new Vector3(h_mov*moveSpeed,v_mov*moveSpeed);
+
+        p_rbody.linearVelocity = Vector3.Normalize(new Vector3(h_mov,v_mov)) * moveSpeed * Time.deltaTime;
     }
 }
