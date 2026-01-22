@@ -1,0 +1,2847 @@
+fileFormatVersion: 2
+guid: c229756356e9dec4ca4fa0ea4420203e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1080608722684435312
+    second: stone_tiles_v2.1_0
+  - first:
+      213: -3485716066744525970
+    second: stone_tiles_v2.1_1
+  - first:
+      213: -4434050962160844052
+    second: stone_tiles_v2.1_2
+  - first:
+      213: -2473779592195745820
+    second: stone_tiles_v2.1_3
+  - first:
+      213: -8820996616200184816
+    second: stone_tiles_v2.1_4
+  - first:
+      213: -8800033532704230689
+    second: stone_tiles_v2.1_5
+  - first:
+      213: -6152993357713756590
+    second: stone_tiles_v2.1_6
+  - first:
+      213: 3714030466575553715
+    second: stone_tiles_v2.1_7
+  - first:
+      213: 1551614210281173582
+    second: stone_tiles_v2.1_8
+  - first:
+      213: -7745939895441991339
+    second: stone_tiles_v2.1_9
+  - first:
+      213: 7308893265203470291
+    second: stone_tiles_v2.1_10
+  - first:
+      213: 7533433134799370034
+    second: stone_tiles_v2.1_11
+  - first:
+      213: 5887231524201026169
+    second: stone_tiles_v2.1_12
+  - first:
+      213: 5255406462563090318
+    second: stone_tiles_v2.1_13
+  - first:
+      213: 2718758334348883636
+    second: stone_tiles_v2.1_14
+  - first:
+      213: 1039119940479107206
+    second: stone_tiles_v2.1_15
+  - first:
+      213: -6684733777049651760
+    second: stone_tiles_v2.1_16
+  - first:
+      213: 7593068356502470723
+    second: stone_tiles_v2.1_17
+  - first:
+      213: -2753533091423509402
+    second: stone_tiles_v2.1_18
+  - first:
+      213: -1474411521689103594
+    second: stone_tiles_v2.1_19
+  - first:
+      213: -4724861473318353845
+    second: stone_tiles_v2.1_20
+  - first:
+      213: 1051922220900337876
+    second: stone_tiles_v2.1_21
+  - first:
+      213: 3786613414561603752
+    second: stone_tiles_v2.1_22
+  - first:
+      213: 713288792793649020
+    second: stone_tiles_v2.1_23
+  - first:
+      213: -474789624971077525
+    second: stone_tiles_v2.1_24
+  - first:
+      213: 1173221483956973658
+    second: stone_tiles_v2.1_25
+  - first:
+      213: 4413769167569408025
+    second: stone_tiles_v2.1_26
+  - first:
+      213: -7428177815900997936
+    second: stone_tiles_v2.1_27
+  - first:
+      213: -9102560498981308469
+    second: stone_tiles_v2.1_28
+  - first:
+      213: -8855673622430466252
+    second: stone_tiles_v2.1_29
+  - first:
+      213: 2718014379000005704
+    second: stone_tiles_v2.1_30
+  - first:
+      213: 7872493674002868751
+    second: stone_tiles_v2.1_31
+  - first:
+      213: -8975645091266143905
+    second: stone_tiles_v2.1_32
+  - first:
+      213: -5152592823341030948
+    second: stone_tiles_v2.1_33
+  - first:
+      213: 4378808259106803724
+    second: stone_tiles_v2.1_34
+  - first:
+      213: 1926820305919546605
+    second: stone_tiles_v2.1_35
+  - first:
+      213: 1221024570339559936
+    second: stone_tiles_v2.1_36
+  - first:
+      213: -5520668907114356097
+    second: stone_tiles_v2.1_37
+  - first:
+      213: 6976359084748689619
+    second: stone_tiles_v2.1_38
+  - first:
+      213: 7728182554223220829
+    second: stone_tiles_v2.1_39
+  - first:
+      213: -5206469929542394300
+    second: stone_tiles_v2.1_40
+  - first:
+      213: -2956589965752202795
+    second: stone_tiles_v2.1_41
+  - first:
+      213: -2052743037992973850
+    second: stone_tiles_v2.1_42
+  - first:
+      213: 2561644143102033216
+    second: stone_tiles_v2.1_43
+  - first:
+      213: -5357918180294174263
+    second: stone_tiles_v2.1_44
+  - first:
+      213: 4897981258097768482
+    second: stone_tiles_v2.1_45
+  - first:
+      213: 3067657477912622025
+    second: stone_tiles_v2.1_46
+  - first:
+      213: -4282123436551944224
+    second: stone_tiles_v2.1_47
+  - first:
+      213: -4006142691828075194
+    second: stone_tiles_v2.1_48
+  - first:
+      213: 2853489605088279254
+    second: stone_tiles_v2.1_49
+  - first:
+      213: 6993891714166120579
+    second: stone_tiles_v2.1_50
+  - first:
+      213: -4644159657612328112
+    second: stone_tiles_v2.1_51
+  - first:
+      213: -3166856369769968582
+    second: stone_tiles_v2.1_52
+  - first:
+      213: 4308974902800612808
+    second: stone_tiles_v2.1_53
+  - first:
+      213: -7655177709065072025
+    second: stone_tiles_v2.1_54
+  - first:
+      213: -6640557376128933680
+    second: stone_tiles_v2.1_55
+  - first:
+      213: -857375382577925329
+    second: stone_tiles_v2.1_56
+  - first:
+      213: -795346184902419707
+    second: stone_tiles_v2.1_57
+  - first:
+      213: 8719073351281506938
+    second: stone_tiles_v2.1_58
+  - first:
+      213: -3552842179173727652
+    second: stone_tiles_v2.1_59
+  - first:
+      213: 5588124280354747455
+    second: stone_tiles_v2.1_60
+  - first:
+      213: 8768397577440483127
+    second: stone_tiles_v2.1_61
+  - first:
+      213: -1336602671573156209
+    second: stone_tiles_v2.1_62
+  - first:
+      213: -5196986816453047619
+    second: stone_tiles_v2.1_63
+  - first:
+      213: -2309069641976318589
+    second: stone_tiles_v2.1_64
+  - first:
+      213: 649379125203150643
+    second: stone_tiles_v2.1_65
+  - first:
+      213: 2400737518658610869
+    second: stone_tiles_v2.1_66
+  - first:
+      213: -4100191042877241698
+    second: stone_tiles_v2.1_67
+  - first:
+      213: -7981322801748397515
+    second: stone_tiles_v2.1_68
+  - first:
+      213: -1785753849881446671
+    second: stone_tiles_v2.1_69
+  - first:
+      213: 292024416430733478
+    second: stone_tiles_v2.1_70
+  - first:
+      213: -3320448499615767961
+    second: stone_tiles_v2.1_71
+  - first:
+      213: -5675934140496259053
+    second: stone_tiles_v2.1_72
+  - first:
+      213: 693332002716022908
+    second: stone_tiles_v2.1_73
+  - first:
+      213: -6956331936362590950
+    second: stone_tiles_v2.1_74
+  - first:
+      213: -4403233265952766961
+    second: stone_tiles_v2.1_75
+  - first:
+      213: -5837295883544352955
+    second: stone_tiles_v2.1_76
+  - first:
+      213: -9011262293958473339
+    second: stone_tiles_v2.1_77
+  - first:
+      213: -2163706947579444879
+    second: stone_tiles_v2.1_78
+  - first:
+      213: 663090377774343951
+    second: stone_tiles_v2.1_79
+  - first:
+      213: -3398107567215808410
+    second: stone_tiles_v2.1_80
+  - first:
+      213: 5926884325767646098
+    second: stone_tiles_v2.1_81
+  - first:
+      213: -204434326414741474
+    second: stone_tiles_v2.1_82
+  - first:
+      213: 3152480386697288056
+    second: stone_tiles_v2.1_83
+  - first:
+      213: -6014086168533833585
+    second: stone_tiles_v2.1_84
+  - first:
+      213: -5772125065521578494
+    second: stone_tiles_v2.1_85
+  - first:
+      213: 8201060907123948636
+    second: stone_tiles_v2.1_86
+  - first:
+      213: 5039717617179309065
+    second: stone_tiles_v2.1_87
+  - first:
+      213: -2079264253275237429
+    second: stone_tiles_v2.1_88
+  - first:
+      213: 4937393152097885546
+    second: stone_tiles_v2.1_89
+  - first:
+      213: 4600948568920997653
+    second: stone_tiles_v2.1_90
+  - first:
+      213: 6736295472413019165
+    second: stone_tiles_v2.1_91
+  - first:
+      213: 1094030370280139823
+    second: stone_tiles_v2.1_92
+  - first:
+      213: -1965310193854237983
+    second: stone_tiles_v2.1_93
+  - first:
+      213: 8042136828611124619
+    second: stone_tiles_v2.1_94
+  - first:
+      213: -8945009043670554931
+    second: stone_tiles_v2.1_95
+  - first:
+      213: -3178379929153104418
+    second: stone_tiles_v2.1_96
+  - first:
+      213: -4680052070191512396
+    second: stone_tiles_v2.1_97
+  - first:
+      213: -2895048545091086237
+    second: stone_tiles_v2.1_98
+  - first:
+      213: 8575143115008278832
+    second: stone_tiles_v2.1_99
+  - first:
+      213: 4023346116787736407
+    second: stone_tiles_v2.1_100
+  - first:
+      213: 424001955470336399
+    second: stone_tiles_v2.1_101
+  - first:
+      213: -4551776793015639900
+    second: stone_tiles_v2.1_102
+  - first:
+      213: -4256148809966711044
+    second: stone_tiles_v2.1_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094a43f8718e001f0800000000000000
+      internalID: -1080608722684435312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b12d594bf30afc0800000000000000
+      internalID: -3485716066744525970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce28c6c74261772c0800000000000000
+      internalID: -4434050962160844052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7df8a419e5badd0800000000000000
+      internalID: -2473779592195745820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c177e2056859580800000000000000
+      internalID: -8820996616200184816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd273a7602000e580800000000000000
+      internalID: -8800033532704230689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e2220242d2c9aa0800000000000000
+      internalID: -6152993357713756590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d6351803ea8330800000000000000
+      internalID: 3714030466575553715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42f14847e0788510800000000000000
+      internalID: 1551614210281173582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55957a074b4e08490800000000000000
+      internalID: -7745939895441991339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df92b553b76e6560800000000000000
+      internalID: 7308893265203470291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237bfd2b5812c8860800000000000000
+      internalID: 7533433134799370034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972db7e11e5a3b150800000000000000
+      internalID: 5887231524201026169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f7d575554fee840800000000000000
+      internalID: 5255406462563090318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b67ffcec48fab520800000000000000
+      internalID: 2718758334348883636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68048439412bb6e00800000000000000
+      internalID: 1039119940479107206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d576e80c0e0b33a0800000000000000
+      internalID: -6684733777049651760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340c690c07fff5960800000000000000
+      internalID: 7593068356502470723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6642b600e3c79c9d0800000000000000
+      internalID: -2753533091423509402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6135af46886d98be0800000000000000
+      internalID: -1474411521689103594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b444eedf58bed6eb0800000000000000
+      internalID: -4724861473318353845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8ca14cfad299e00800000000000000
+      internalID: 1051922220900337876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06ca496d0cc8430800000000000000
+      internalID: 3786613414561603752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f8bbcb06c16e900800000000000000
+      internalID: 713288792793649020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68de840a553969f0800000000000000
+      internalID: -474789624971077525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50bc1249be184010800000000000000
+      internalID: 1173221483956973658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910db893cabd04d30800000000000000
+      internalID: 4413769167569408025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b8c2f1afc9e890800000000000000
+      internalID: -7428177815900997936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc777bf14753da180800000000000000
+      internalID: -9102560498981308469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f3c3082c35a1580800000000000000
+      internalID: -8855673622430466252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84403b25da358b520800000000000000
+      internalID: 2718014379000005704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a63774947b04d60800000000000000
+      internalID: 7872493674002868751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f595a11385a107380800000000000000
+      internalID: -8975645091266143905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1e78470205e78b0800000000000000
+      internalID: -5152592823341030948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c009b9769e6a4cc30800000000000000
+      internalID: 4378808259106803724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de418580cd07dba10800000000000000
+      internalID: 1926820305919546605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a0d11a063f1f010800000000000000
+      internalID: 1221024570339559936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72a7e4f0e4a263b0800000000000000
+      internalID: -5520668907114356097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0d30010a101d060800000000000000
+      internalID: 6976359084748689619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5898df5615004b60800000000000000
+      internalID: 7728182554223220829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e5fd32f27eeb7b0800000000000000
+      internalID: -5206469929542394300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d90bd0471518f6d0800000000000000
+      internalID: -2956589965752202795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9c54535113383e0800000000000000
+      internalID: -2052743037992973850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d7e86a6c9cc8320800000000000000
+      internalID: 2561644143102033216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c955ff6dc9d4a5b0800000000000000
+      internalID: -5357918180294174263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228307de00029f340800000000000000
+      internalID: 4897981258097768482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c37d871932829a20800000000000000
+      internalID: 3067657477912622025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e742ff0c67d294c0800000000000000
+      internalID: -4282123436551944224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6457f0e72725768c0800000000000000
+      internalID: -4006142691828075194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da7e896da1a99720800000000000000
+      internalID: 2853489605088279254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3806b64757b4f0160800000000000000
+      internalID: 6993891714166120579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05341dfa561ac8fb0800000000000000
+      internalID: -4644159657612328112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c8d2119e01d04d0800000000000000
+      internalID: -3166856369769968582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdf08b18dd8ccb30800000000000000
+      internalID: 4308974902800612808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76210b6be6853c590800000000000000
+      internalID: -7655177709065072025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d02c35ef3008d3a0800000000000000
+      internalID: -6640557376128933680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f233742d1adf914f0800000000000000
+      internalID: -857375382577925329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bdd67dbdc56f4f0800000000000000
+      internalID: -795346184902419707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a75b1740f500970800000000000000
+      internalID: 8719073351281506938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52435f9cd4c1bec0800000000000000
+      internalID: -3552842179173727652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34b7430d610d8d40800000000000000
+      internalID: 5588124280354747455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_61
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7375cb4c32b9fa970800000000000000
+      internalID: 8768397577440483127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e3b0ba3fe637de0800000000000000
+      internalID: -1336602671573156209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba8de6760890e7b0800000000000000
+      internalID: -5196986816453047619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385fc54056984ffd0800000000000000
+      internalID: -2309069641976318589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_65
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337a942bfde030900800000000000000
+      internalID: 649379125203150643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b66996bd02215120800000000000000
+      internalID: 2400737518658610869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96401268f13917c0800000000000000
+      internalID: -4100191042877241698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532bf0cd235ac3190800000000000000
+      internalID: -7981322801748397515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6b789b55ab737e0800000000000000
+      internalID: -1785753849881446671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a83817d8aa7d0400800000000000000
+      internalID: 292024416430733478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7626c6d9ea56be1d0800000000000000
+      internalID: -3320448499615767961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318553bb8f70b31b0800000000000000
+      internalID: -5675934140496259053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c787c4578c53f9900800000000000000
+      internalID: 693332002716022908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d0769c5f4267f90800000000000000
+      internalID: -6956331936362590950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_75
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04c3b78ca294e2c0800000000000000
+      internalID: -4403233265952766961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5472d7c3252cdfea0800000000000000
+      internalID: -5837295883544352955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589cbb6ffa091f280800000000000000
+      internalID: -9011262293958473339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1718b77bef7f8f1e0800000000000000
+      internalID: -2163706947579444879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0728357f25c33900800000000000000
+      internalID: 663090377774343951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660f88beb2f77d0d0800000000000000
+      internalID: -3398107567215808410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b063e64e5804250800000000000000
+      internalID: 5926884325767646098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1037223014b92df0800000000000000
+      internalID: -204434326414741474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8795a7a853cdfbb20800000000000000
+      internalID: 3152480386697288056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8863f36e7ca98ca0800000000000000
+      internalID: -6014086168533833585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e357eb5da45efa0800000000000000
+      internalID: -5772125065521578494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3776a17500d170800000000000000
+      internalID: 8201060907123948636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9043044a87ca0f540800000000000000
+      internalID: 5039717617179309065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc39c559d28f423e0800000000000000
+      internalID: -2079264253275237429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d9d3399e4258440800000000000000
+      internalID: 4937393152097885546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fb068b85ad9df30800000000000000
+      internalID: 4600948568920997653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c004faa012c7d50800000000000000
+      internalID: 6736295472413019165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c690a43d6ce2f00800000000000000
+      internalID: 1094030370280139823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e23dd59ac0d9b4e0800000000000000
+      internalID: -1965310193854237983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dd37826d86b9f60800000000000000
+      internalID: 8042136828611124619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc62c5fdaa1fcd380800000000000000
+      internalID: -8945009043670554931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed519915b4024e3d0800000000000000
+      internalID: -3178379929153104418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b447e9207d1d0fb0800000000000000
+      internalID: -4680052070191512396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_98
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3689556dfa8b2d7d0800000000000000
+      internalID: -2895048545091086237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318434ea37010770800000000000000
+      internalID: 8575143115008278832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f84930afbc5d730800000000000000
+      internalID: 4023346116787736407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_101
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8161e3388b52e500800000000000000
+      internalID: 424001955470336399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0af638f17d4d0c0800000000000000
+      internalID: -4551776793015639900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_v2.1_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe8bb6153f1fe4c0800000000000000
+      internalID: -4256148809966711044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stone_tiles_v2.1_0: -1080608722684435312
+      stone_tiles_v2.1_1: -3485716066744525970
+      stone_tiles_v2.1_10: 7308893265203470291
+      stone_tiles_v2.1_100: 4023346116787736407
+      stone_tiles_v2.1_101: 424001955470336399
+      stone_tiles_v2.1_102: -4551776793015639900
+      stone_tiles_v2.1_103: -4256148809966711044
+      stone_tiles_v2.1_11: 7533433134799370034
+      stone_tiles_v2.1_12: 5887231524201026169
+      stone_tiles_v2.1_13: 5255406462563090318
+      stone_tiles_v2.1_14: 2718758334348883636
+      stone_tiles_v2.1_15: 1039119940479107206
+      stone_tiles_v2.1_16: -6684733777049651760
+      stone_tiles_v2.1_17: 7593068356502470723
+      stone_tiles_v2.1_18: -2753533091423509402
+      stone_tiles_v2.1_19: -1474411521689103594
+      stone_tiles_v2.1_2: -4434050962160844052
+      stone_tiles_v2.1_20: -4724861473318353845
+      stone_tiles_v2.1_21: 1051922220900337876
+      stone_tiles_v2.1_22: 3786613414561603752
+      stone_tiles_v2.1_23: 713288792793649020
+      stone_tiles_v2.1_24: -474789624971077525
+      stone_tiles_v2.1_25: 1173221483956973658
+      stone_tiles_v2.1_26: 4413769167569408025
+      stone_tiles_v2.1_27: -7428177815900997936
+      stone_tiles_v2.1_28: -9102560498981308469
+      stone_tiles_v2.1_29: -8855673622430466252
+      stone_tiles_v2.1_3: -2473779592195745820
+      stone_tiles_v2.1_30: 2718014379000005704
+      stone_tiles_v2.1_31: 7872493674002868751
+      stone_tiles_v2.1_32: -8975645091266143905
+      stone_tiles_v2.1_33: -5152592823341030948
+      stone_tiles_v2.1_34: 4378808259106803724
+      stone_tiles_v2.1_35: 1926820305919546605
+      stone_tiles_v2.1_36: 1221024570339559936
+      stone_tiles_v2.1_37: -5520668907114356097
+      stone_tiles_v2.1_38: 6976359084748689619
+      stone_tiles_v2.1_39: 7728182554223220829
+      stone_tiles_v2.1_4: -8820996616200184816
+      stone_tiles_v2.1_40: -5206469929542394300
+      stone_tiles_v2.1_41: -2956589965752202795
+      stone_tiles_v2.1_42: -2052743037992973850
+      stone_tiles_v2.1_43: 2561644143102033216
+      stone_tiles_v2.1_44: -5357918180294174263
+      stone_tiles_v2.1_45: 4897981258097768482
+      stone_tiles_v2.1_46: 3067657477912622025
+      stone_tiles_v2.1_47: -4282123436551944224
+      stone_tiles_v2.1_48: -4006142691828075194
+      stone_tiles_v2.1_49: 2853489605088279254
+      stone_tiles_v2.1_5: -8800033532704230689
+      stone_tiles_v2.1_50: 6993891714166120579
+      stone_tiles_v2.1_51: -4644159657612328112
+      stone_tiles_v2.1_52: -3166856369769968582
+      stone_tiles_v2.1_53: 4308974902800612808
+      stone_tiles_v2.1_54: -7655177709065072025
+      stone_tiles_v2.1_55: -6640557376128933680
+      stone_tiles_v2.1_56: -857375382577925329
+      stone_tiles_v2.1_57: -795346184902419707
+      stone_tiles_v2.1_58: 8719073351281506938
+      stone_tiles_v2.1_59: -3552842179173727652
+      stone_tiles_v2.1_6: -6152993357713756590
+      stone_tiles_v2.1_60: 5588124280354747455
+      stone_tiles_v2.1_61: 8768397577440483127
+      stone_tiles_v2.1_62: -1336602671573156209
+      stone_tiles_v2.1_63: -5196986816453047619
+      stone_tiles_v2.1_64: -2309069641976318589
+      stone_tiles_v2.1_65: 649379125203150643
+      stone_tiles_v2.1_66: 2400737518658610869
+      stone_tiles_v2.1_67: -4100191042877241698
+      stone_tiles_v2.1_68: -7981322801748397515
+      stone_tiles_v2.1_69: -1785753849881446671
+      stone_tiles_v2.1_7: 3714030466575553715
+      stone_tiles_v2.1_70: 292024416430733478
+      stone_tiles_v2.1_71: -3320448499615767961
+      stone_tiles_v2.1_72: -5675934140496259053
+      stone_tiles_v2.1_73: 693332002716022908
+      stone_tiles_v2.1_74: -6956331936362590950
+      stone_tiles_v2.1_75: -4403233265952766961
+      stone_tiles_v2.1_76: -5837295883544352955
+      stone_tiles_v2.1_77: -9011262293958473339
+      stone_tiles_v2.1_78: -2163706947579444879
+      stone_tiles_v2.1_79: 663090377774343951
+      stone_tiles_v2.1_8: 1551614210281173582
+      stone_tiles_v2.1_80: -3398107567215808410
+      stone_tiles_v2.1_81: 5926884325767646098
+      stone_tiles_v2.1_82: -204434326414741474
+      stone_tiles_v2.1_83: 3152480386697288056
+      stone_tiles_v2.1_84: -6014086168533833585
+      stone_tiles_v2.1_85: -5772125065521578494
+      stone_tiles_v2.1_86: 8201060907123948636
+      stone_tiles_v2.1_87: 5039717617179309065
+      stone_tiles_v2.1_88: -2079264253275237429
+      stone_tiles_v2.1_89: 4937393152097885546
+      stone_tiles_v2.1_9: -7745939895441991339
+      stone_tiles_v2.1_90: 4600948568920997653
+      stone_tiles_v2.1_91: 6736295472413019165
+      stone_tiles_v2.1_92: 1094030370280139823
+      stone_tiles_v2.1_93: -1965310193854237983
+      stone_tiles_v2.1_94: 8042136828611124619
+      stone_tiles_v2.1_95: -8945009043670554931
+      stone_tiles_v2.1_96: -3178379929153104418
+      stone_tiles_v2.1_97: -4680052070191512396
+      stone_tiles_v2.1_98: -2895048545091086237
+      stone_tiles_v2.1_99: 8575143115008278832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
