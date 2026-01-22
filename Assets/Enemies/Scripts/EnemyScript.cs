@@ -12,6 +12,7 @@ public class EnemyScript
     public int enemyCurrentHealth;
     public int enemyDamage;
     public int enemySpeed;
+    public float enemyAttackCooldown;
 
     [Header("XP")]
     public int xpDrop;

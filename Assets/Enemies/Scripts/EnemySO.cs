@@ -8,6 +8,9 @@ public class EnemySO : ScriptableObject
     public string enemyName = "Enemy";
     [Tooltip("EnemyID")]
     public int enemyID;
+    
+    [Tooltip("Attack Cooldown")]
+    public float enemyAttackCooldown = 1f;
 
 
     [Header("Stats")]
@@ -41,6 +44,7 @@ public class EnemySO : ScriptableObject
             enemySpeed = this.Speed,
             enemyCurrentHealth = this.maxHealth, // Start at full HP
             xpDrop = this.xpDrop,
+            enemyAttackCooldown = this.enemyAttackCooldown,
         };
     }
 }

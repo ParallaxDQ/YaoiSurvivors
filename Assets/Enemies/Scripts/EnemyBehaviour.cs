@@ -1,43 +1,70 @@
 using UnityEngine;
 
-public class EnemyBehaviour : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    [SerializeField]
-    private EnemyScript enemyData;
+    public EnemyScript enemyData;
     private Transform player;
-    private Rigidbody2D rb;
-    private float lastDamageTime;
+    private float lastDamageTime = -999f;
+    private int currentHealth;
+    private SpriteRenderer spriteRenderer;
+    private bool isInitialized = false;
 
-    public void Initialise(EnemyScript enemyScript)
-    {
-        enemyData = enemyScript;
-
-        GetComponent<SpriteRenderer>().sprite = enemyData.enemySprite;
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Find the player
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        rb = GetComponent<Rigidbody2D>();
-        lastDamageTime = -1f;
-    }
-
-    void FixedUpdate()
-    {
-        if (player != null)
+    
+        // Get sprite renderer
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    
+        // Initialize if data is already assigned
+        if (enemyData != null)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.linearVelocity = direction * enemyData.enemySpeed;
+            Initialize();
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    // Call this after assigning enemyData
+    public void Initialize()
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (isInitialized) return;
+        
+        // Initialize health
+        currentHealth = enemyData.enemyMaxHealth;
+        
+        // Set up sprite
+        if (spriteRenderer != null && enemyData.enemySprite != null)
         {
-            if (Time.time > lastDamageTime + 1f)
+            spriteRenderer.sprite = enemyData.enemySprite;
+        }
+        
+        isInitialized = true;
+    }
+
+    void Update()
+    {
+        // Move towards player
+        if (player != null && enemyData != null)
+        {
+            Vector3 direction = (player.position - transform.position).normalized;
+            transform.position += direction * enemyData.enemySpeed * Time.deltaTime;
+        }
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        // Check if touching player
+        if (collision.gameObject.CompareTag("Player") && enemyData != null)
+        {
+            // Check cooldown - use enemyData.attackCooldown for individual cooldowns
+            if (Time.time >= lastDamageTime + enemyData.enemyAttackCooldown)
             {
+<<<<<<< Updated upstream
                 PlayerStats playerHealth = collision.gameObject.GetComponent<PlayerStats>();
+=======
+                // Deal damage to player
+                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+>>>>>>> Stashed changes
                 if (playerHealth != null)
                 {
                     playerHealth.TakeDamage(enemyData.enemyDamage);
@@ -45,5 +72,19 @@ public class EnemyBehaviour : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }
