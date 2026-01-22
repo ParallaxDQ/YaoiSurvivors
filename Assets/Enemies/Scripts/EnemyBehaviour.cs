@@ -37,7 +37,7 @@ public class EnemyBehaviour : MonoBehaviour
         {
             if (Time.time > lastDamageTime + 1f)
             {
-                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+                PlayerStats playerHealth = collision.gameObject.GetComponent<PlayerStats>();
                 if (playerHealth != null)
                 {
                     playerHealth.TakeDamage(enemyData.enemyDamage);
