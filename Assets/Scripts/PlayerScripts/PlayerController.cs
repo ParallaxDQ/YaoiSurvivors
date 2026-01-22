@@ -7,9 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed;
     Rigidbody2D p_rbody;
     bool m_facingRight;
-    GameObject[] weapons;
-    [SerializeField] GameObject weapon1; //scythe
-    ScytheScript ScytheScript;
+    [SerializeField] GameObject[] weapons;
 
     //input vars
     float v_mov;
@@ -20,8 +18,7 @@ public class PlayerController : MonoBehaviour
     {
         p_rbody = GetComponent<Rigidbody2D>();
         m_facingRight = true;
-        ScytheScript = weapon1.GetComponent<ScytheScript>();
-        StartCoroutine(WeaponCooldown(weapon1));
+        StartAllWeapons();
     }
 
     // Update is called once per frame
@@ -39,7 +36,11 @@ public class PlayerController : MonoBehaviour
         temp *= -1;
         transform.localScale =new Vector3(temp, transform.localScale.y, transform.localScale.z);
         m_facingRight = !m_facingRight;
-        ScytheScript.offset *= -1;
+        for (int i = 0; i < weapons.Length; i++)
+        {
+           AbstractWeapon weaponScript = weapons[i].GetComponent<AbstractWeapon>();
+           weaponScript.offset *= -1;
+        }
         //weapon1.transform.localScale = new Vector3(temp, weapon1.transform.localScale.y, weapon1.transform.localScale.z);
         print("Flipped");
         
@@ -68,6 +69,14 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(weaponScript.cooldown); //replace with unique weapon cooldown
             weapon.SetActive(true);
             yield return new WaitForSeconds(weaponScript.weaponDuration); //replace with unique weapon duration
+        }
+    }
+
+    void StartAllWeapons()
+    {
+        for (int i = 0; i < weapons.Length; i++)
+        {
+            StartCoroutine(WeaponCooldown(weapons[i]));
         }
     }
 }
