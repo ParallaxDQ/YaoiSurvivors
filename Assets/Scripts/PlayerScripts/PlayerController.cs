@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Flip()
+    void Flip() //works
     {
         float temp = transform.localScale.x;
         temp *= -1;
