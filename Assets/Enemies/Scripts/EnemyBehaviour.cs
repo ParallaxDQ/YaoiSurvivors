@@ -59,9 +59,12 @@ public class Enemy : MonoBehaviour
             // Check cooldown - use enemyData.attackCooldown for individual cooldowns
             if (Time.time >= lastDamageTime + enemyData.enemyAttackCooldown)
             {
-
+<<<<<<< Updated upstream
                 PlayerStats playerHealth = collision.gameObject.GetComponent<PlayerStats>();
-
+=======
+                // Deal damage to player
+                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+>>>>>>> Stashed changes
                 if (playerHealth != null)
                 {
                     playerHealth.TakeDamage(enemyData.enemyDamage);
