@@ -95,4 +95,9 @@ public class PlayerStats : MonoBehaviour
                 break;
         }
     }
+
+    public string StatStringGen()
+    {
+        return "Level:\t" + level.ToString() + "\n" + "Max health:\t" + maxHealth.ToString() + "\n" + "Damage:\t" + attackDam.ToString() + "\n" + "Dam Percent:\t" + attackPerc.ToString() + "\n" + "Defense:\t" + defense.ToString() + "\n";
+    }
 }

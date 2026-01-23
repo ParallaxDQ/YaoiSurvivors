@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: IronAxe
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -5811498811225418235, guid: e88bf5cf9f8f8fe4bb08b62e7bba06be, type: 3}
+  itemSprite: {fileID: -711089124898598004, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 10
   statToBeIncreased: 0
+  ma_affection: 0
+  j_affection: 0
+  p_affection: 0

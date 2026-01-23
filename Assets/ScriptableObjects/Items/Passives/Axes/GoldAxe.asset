@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: GoldAxe
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -8724900023555864348, guid: 811d279e59ad6024ba01d316182930b8, type: 3}
+  itemSprite: {fileID: -3860048206728724737, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 20
   statToBeIncreased: 0
+  ma_affection: 0
+  j_affection: 0
+  p_affection: 0

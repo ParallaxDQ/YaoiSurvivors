@@ -3400,6 +3400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1694647303}
+  - component: {fileID: 1694647304}
   m_Layer: 5
   m_Name: LevelUpMenu
   m_TagString: Untagged
@@ -3435,6 +3436,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694647304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694647302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553621ed0a7568844a9543bdbeede612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button1: {fileID: 1719668926}
+  button2: {fileID: 301384133}
+  button3: {fileID: 1533169183}
+  statText: {fileID: 477639242}
+  player: {fileID: 2000155634}
 --- !u!1 &1719668926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3756,6 +3774,20 @@ MonoBehaviour:
   player: {fileID: 2000155634}
   levelUpUI: {fileID: 1694647302}
   GameUI: {fileID: 1959455253}
+  itemList:
+  - {fileID: 11400000, guid: 4fe3e0f6654f9d34da1860371c78d8b3, type: 2}
+  - {fileID: 11400000, guid: 041a2bfc56f75104fa27daddd275497c, type: 2}
+  - {fileID: 11400000, guid: 8c9733fbb84fe4b4f8a1c68b4beaafee, type: 2}
+  - {fileID: 11400000, guid: 48214f18bde872c478558b78ba1b89f7, type: 2}
+  - {fileID: 11400000, guid: b94f726c3214e62429c453ee00bb2501, type: 2}
+  - {fileID: 11400000, guid: 96de2fa1f1fa5e141ad9bcd8ccbc92b5, type: 2}
+  - {fileID: 11400000, guid: 829ed51af1c0528408a05d4fcd0c221d, type: 2}
+  - {fileID: 11400000, guid: b223ffd398a720a4e9ce15ed1137b53e, type: 2}
+  - {fileID: 11400000, guid: 8e38623346f9774438596ef413a8afb3, type: 2}
+  - {fileID: 11400000, guid: a5d3c11f7e9edba4ca1ed62121dba866, type: 2}
+  - {fileID: 11400000, guid: 22b002a4ea1304542afbd9eec29ed070, type: 2}
+  - {fileID: 11400000, guid: c59996d8ae30f22479e41c2744dd8f5c, type: 2}
+  LevelUpMenu: {fileID: 1694647302}
   timer: 0
 --- !u!1 &1888221073
 GameObject:

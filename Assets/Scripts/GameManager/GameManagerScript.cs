@@ -1,9 +1,8 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-public class GameManagerScript : MonoBehaviour
+public class GameManagerScript : MonoBehaviour //big mistake, game manager is now more of a level up screen facilitator than anything else.
 {
     [SerializeField] GameObject TimerUI;
     TextMeshProUGUI TimerText;
@@ -15,13 +14,17 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField] GameObject levelUpUI;
     [SerializeField] GameObject GameUI;
 
+    [SerializeField] IncreaseStatItem[] itemList; //populate in inspector with all passive/active items
+    [SerializeField] GameObject LevelUpMenu;
+    LevelUpMenuScript levelUpScript;
     private void Awake()
     {
      TimerText = TimerUI.GetComponent<TextMeshProUGUI>();
      StartCoroutine(AddToTimer());
      playerStats = player.GetComponent<PlayerStats>();
      playerController = player.GetComponent<PlayerController>();
-        EnterLevelUpScreen();
+     levelUpScript = LevelUpMenu.GetComponent<LevelUpMenuScript>();
+        EnterLevelUpScreen(); //remove before end
     }
     
     public float timer = 0;
@@ -37,10 +40,13 @@ public class GameManagerScript : MonoBehaviour
 
     public void EnterLevelUpScreen()
     {
+        ScriptableObject[] shopArray;
+        shopArray = populateShop();
         Time.timeScale = 0;
         playerController.StopAllCoroutines(); //stops all weapon cooldowns
         GameUI.SetActive(false);
         levelUpUI.SetActive(true);
+        levelUpScript.ReadyShop(shopArray);
     }
 
     public void ExitLevelUpScreen()
@@ -48,6 +54,12 @@ public class GameManagerScript : MonoBehaviour
         playerController.StartActiveWeapons();
         GameUI.SetActive(true);
         levelUpUI.SetActive(false);
+    }
+    ScriptableObject[] populateShop() //should return the list of the shop
+    {
+        ScriptableObject[] shopArray = { itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)]}; //random items, no validation
+        return shopArray;
+
     }
 
     public void passiveItemFunc(IncreaseStatItem item)

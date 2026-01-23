@@ -7,11 +7,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: BronzeAxe
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -1678187950271180273, guid: f92342b3ab5d1704f82f3b99322f5ead, type: 3}
+  itemSprite: {fileID: 1344164945406313202, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 5
   statToBeIncreased: 0
+  ma_affection: 0
+  j_affection: 0
+  p_affection: 0

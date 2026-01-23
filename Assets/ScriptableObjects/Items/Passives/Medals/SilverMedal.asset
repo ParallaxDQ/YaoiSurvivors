@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: SilverMedal
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 902927102232843685, guid: 565372cc47a0e554b958dbcc06538386, type: 3}
+  itemSprite: {fileID: 3117103372365366801, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 10
   statToBeIncreased: 1
+  ma_affection: 0
+  j_affection: 0
+  p_affection: 0
