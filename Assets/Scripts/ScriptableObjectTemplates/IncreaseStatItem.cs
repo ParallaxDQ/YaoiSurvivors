@@ -3,40 +3,24 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "IncreaseStatItem", menuName = "Scriptable Objects/IncreaseStatItem")]
 public class IncreaseStatItem : ScriptableObject
 {
-    [SerializeField] Sprite itemSprite;
-    [SerializeField] float statIncrease;
+    public Sprite itemSprite;
+    public float statIncrease;
     string itemType = "Passive"; //if item type is passive run passiveItemFunc
-    [SerializeField]stats statToBeIncreased;
-    PlayerStats player;
-
+    public stats statToBeIncreased;
+    PlayerStats playerStats;
+    [SerializeField] GameObject player;
+    public float m_affection;
+    public float j_affection;
+    public float p_affection;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-
-    public IncreaseStatItem(PlayerStats player)
+    private void Awake()
     {
-        this.player = player;
+        playerStats = player.GetComponent<PlayerStats>();
     }
 
 
-    public void passiveItemFunc()
-    {
-        switch (statToBeIncreased)
-        {
-            case stats.Damage:
-                player.attackDam += statIncrease;
-                break;
-            case stats.DamagePerc:
-                player.attackPerc += statIncrease;
-                break;
-            case stats.MoveSpeed:
-                player.moveSpeed += statIncrease;
-                break;
-            case stats.Defense:
-                player.defense += statIncrease;
-                break;
-        }
-    }
 
-    enum stats
+    public enum stats
     {
         Damage,
         DamagePerc,

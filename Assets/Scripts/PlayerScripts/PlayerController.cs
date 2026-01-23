@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour
         p_rbody = GetComponent<Rigidbody2D>();
         p_stats = GetComponent<PlayerStats>();
         m_facingRight = true;
-        StartAllWeapons();
+        weapons[1].SetActive(true);
+        StartActiveWeapons();
     }
 
     // Update is called once per frame
@@ -76,11 +77,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void StartAllWeapons()
+    public void StartActiveWeapons()
     {
         for (int i = 0; i < weapons.Length; i++)
         {
-            StartCoroutine(WeaponCooldown(weapons[i]));
+            if (weapons[i].activeSelf)
+            {
+             StartCoroutine(WeaponCooldown(weapons[i]));
+            }
+            
         }
     }
 }
