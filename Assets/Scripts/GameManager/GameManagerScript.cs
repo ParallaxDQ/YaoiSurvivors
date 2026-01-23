@@ -52,8 +52,12 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void ExitLevelUpScreen()
     {
+        Time.timeScale = 1;
+        Debug.Log("Check1");
         playerController.StartActiveWeapons();
+        Debug.Log("Check2");
         GameUI.SetActive(true);
+        Debug.Log("Check3");
         levelUpUI.SetActive(false);
     }
     IncreaseStatItem[] populateShop() //should return the list of the shop
@@ -66,16 +70,19 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     public void LevelUpB1Press()
     {
         passiveItemFunc(shopArray[0]);
+        ExitLevelUpScreen();
     }
 
     public void LevelUpB2Press()
     {
         passiveItemFunc(shopArray[1]);
+        ExitLevelUpScreen();
     }
 
     public void LevelUpB3Press()
     {
         passiveItemFunc(shopArray[2]);
+        ExitLevelUpScreen();
     }
 
     public void passiveItemFunc(IncreaseStatItem item)
