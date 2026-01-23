@@ -18,6 +18,13 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     [SerializeField] IncreaseStatItem[] itemList; //populate in inspector with all passive/active items
     [SerializeField] GameObject LevelUpMenu;
     LevelUpMenuScript levelUpScript;
+
+    IncreaseStatItem[] shopArray;
+
+    [SerializeField] GameObject button1;
+    [SerializeField] GameObject button2;
+    [SerializeField] GameObject button3;
+
     
     void OnEnable()
     {
@@ -37,6 +44,7 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
             Time.timeScale = 1;
         }
     }
+
     
     private void Awake()
     {
@@ -45,7 +53,6 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
      playerStats = player.GetComponent<PlayerStats>();
      playerController = player.GetComponent<PlayerController>();
      levelUpScript = LevelUpMenu.GetComponent<LevelUpMenuScript>();
-        EnterLevelUpScreen(); //remove before end
     }
     
     public float timer = 0;
@@ -72,15 +79,34 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void ExitLevelUpScreen()
     {
+        Time.timeScale = 1;
         playerController.StartActiveWeapons();
         GameUI.SetActive(true);
         levelUpUI.SetActive(false);
     }
-    ScriptableObject[] populateShop() //should return the list of the shop
+    IncreaseStatItem[] populateShop() //should return the list of the shop
     {
-        ScriptableObject[] shopArray = { itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)]}; //random items, no validation
+        IncreaseStatItem[] shopArray = { itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)]}; //random items, no validation
         return shopArray;
 
+    }
+
+    public void LevelUpB1Press()
+    {
+        passiveItemFunc(button1.GetComponent<OptionButtonScript>().containedItem);
+        ExitLevelUpScreen();
+    }
+
+    public void LevelUpB2Press()
+    {
+        passiveItemFunc(button2.GetComponent<OptionButtonScript>().containedItem);
+        ExitLevelUpScreen();
+    }
+
+    public void LevelUpB3Press()
+    {
+        passiveItemFunc(button3.GetComponent<OptionButtonScript>().containedItem);
+        ExitLevelUpScreen();
     }
 
     public void passiveItemFunc(IncreaseStatItem item)
@@ -102,6 +128,9 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
                 playerStats.defense += statIncrease;
                 break;
         }
+        playerStats.AddRelation(item.ma_affection,"Mark");
+        playerStats.AddRelation(item.j_affection, "Jack");
+        playerStats.AddRelation(item.p_affection, "Pewd");
     }
 
     public enum stats

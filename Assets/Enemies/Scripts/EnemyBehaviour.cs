@@ -8,63 +8,51 @@ public class Enemy : MonoBehaviour
     private int currentHealth;
     private SpriteRenderer spriteRenderer;
     private bool isInitialized = false;
+    private bool isDead = false;
 
     void Start()
     {
-        // Find the player
         player = GameObject.FindGameObjectWithTag("Player").transform;
-    
-        // Get sprite renderer
         spriteRenderer = GetComponent<SpriteRenderer>();
-    
-        // Initialize if data is already assigned
+
         if (enemyData != null)
         {
             Initialize();
         }
     }
 
-    // Call this after assigning enemyData
     public void Initialize()
     {
         if (isInitialized) return;
-        
-        // Initialize health
+
         currentHealth = enemyData.enemyMaxHealth;
-        
-        // Set up sprite
+
         if (spriteRenderer != null && enemyData.enemySprite != null)
         {
             spriteRenderer.sprite = enemyData.enemySprite;
         }
-        
+
         isInitialized = true;
     }
 
     void Update()
     {
-        // Move towards player
-        if (player != null && enemyData != null)
+        if (player != null && enemyData != null && !isDead)
         {
             Vector3 direction = (player.position - transform.position).normalized;
             transform.position += direction * enemyData.enemySpeed * Time.deltaTime;
         }
     }
 
-    void OnCollisionStay2D(Collision2D collision)
+    void OnTriggerStay2D(Collider2D other)
     {
-        // Check if touching player
-        if (collision.gameObject.CompareTag("Player") && enemyData != null)
+        if (isDead) return;
+
+        if (other.CompareTag("Player") && enemyData != null)
         {
-            // Check cooldown - use enemyData.attackCooldown for individual cooldowns
             if (Time.time >= lastDamageTime + enemyData.enemyAttackCooldown)
             {
-<<<<<<< Updated upstream
-                PlayerStats playerHealth = collision.gameObject.GetComponent<PlayerStats>();
-=======
-                // Deal damage to player
-                PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
->>>>>>> Stashed changes
+                PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
                 if (playerHealth != null)
                 {
                     playerHealth.TakeDamage(enemyData.enemyDamage);
@@ -74,9 +62,23 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (isDead) return;
+
+        if (other.CompareTag("Weapon"))
+        {
+            TakeDamage(10);
+        }
+    }
+
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         currentHealth -= damage;
+        Debug.Log($"{enemyData.enemyName} took {damage} damage! Health: {currentHealth}/{enemyData.enemyMaxHealth}");
+
         if (currentHealth <= 0)
         {
             Die();
@@ -85,6 +87,17 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
+        if (isDead) return;
+
+        isDead = true;
+        Debug.Log($"{enemyData.enemyName} died!");
+
+        PlayerStats playerStats = FindObjectOfType<PlayerStats>();
+        if (playerStats != null && enemyData != null)
+        {
+            playerStats.AddEXP(enemyData.xpDrop);
+        }
+
         Destroy(gameObject);
     }
 }
