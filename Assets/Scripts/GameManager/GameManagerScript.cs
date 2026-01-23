@@ -68,7 +68,7 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void EnterLevelUpScreen()
     {
-        ScriptableObject[] shopArray;
+        IncreaseStatItem[] shopArray;
         shopArray = populateShop();
         Time.timeScale = 0;
         playerController.StopAllCoroutines(); //stops all weapon cooldowns

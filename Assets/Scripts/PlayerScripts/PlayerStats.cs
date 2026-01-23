@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
- 
+
 public class PlayerStats : MonoBehaviour
 {
     public float curHealth;
@@ -14,9 +14,7 @@ public class PlayerStats : MonoBehaviour
     public float attackPerc;
 
     public float defense;
-
-    [SerializeField] private int maxHealth = 100;
-    private int currentHealth;
+    public float currentHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -81,24 +79,14 @@ public class PlayerStats : MonoBehaviour
         Image expImage = expBar.GetComponent<Image>();
         experience += expGain;
         expImage.fillAmount = experience / 100;
-        if (experience>=100)
+        if (experience >= 100)
         {
             experience -= 100;
             GMS.EnterLevelUpScreen();
         }
     }
 
-    private void AddEXP(float expGain)
-    {
-        experience += expGain;
-        if (experience>100)
-        {
-            experience -= 100;
-            //Trigger the LevelUp menu
-        }
-    }
-
-    private void AddRelation(int relationGain,string name) //prob better to use enum for the name, but alas
+    public void AddRelation(float relationGain, string name) //prob better to use enum for the name, but alas
     {
         switch (name)
         {
@@ -108,6 +96,7 @@ public class PlayerStats : MonoBehaviour
                 {
                     m_relationship = 10;
                     CheckRelationshipEvent("Mark", 0);
+                }
                 if (m_relationship < 10) //relation maxes at 10
                 {
                     m_relationship = 10;
@@ -120,6 +109,7 @@ public class PlayerStats : MonoBehaviour
                 {
                     j_relationship = 10;
                     CheckRelationshipEvent("Jack", 1);
+                }
                 if (j_relationship < 10) //relation maxes at 10
                 {
                     j_relationship = 10;
@@ -167,11 +157,7 @@ public class PlayerStats : MonoBehaviour
         Debug.Log("StatStringGen running");
         string returnvalue = "Level:\t" + level.ToString() + "\n" + "Max health:\t" + maxHealth.ToString() + "\n" + "Damage:\t" + attackDam.ToString() + "\n" + "Dam Percent:\t" + attackPerc.ToString() + "\n" + "Defense:\t" + defense.ToString() + "\n";
         return returnvalue;
-                if (p_relationship < 10) //relation maxes at 10
-                {
-                    p_relationship = 10;
-                }
-                break;
-        }
+
+
     }
 }
