@@ -31,8 +31,9 @@ public class PlayerController : MonoBehaviour
         h_mov = Input.GetAxisRaw("Horizontal");
         FlipCheck();
         p_rbody.linearVelocity = Vector3.Normalize(new Vector3(h_mov,v_mov)) * moveSpeed * Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.RightControl))
+        if (Input.GetButtonDown("Fire1"))
         {
+            Debug.Log("fire pressed");
             p_stats.AddEXP(60);
         }
     }
