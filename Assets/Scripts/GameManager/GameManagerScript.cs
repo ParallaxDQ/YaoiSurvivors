@@ -17,6 +17,8 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     [SerializeField] IncreaseStatItem[] itemList; //populate in inspector with all passive/active items
     [SerializeField] GameObject LevelUpMenu;
     LevelUpMenuScript levelUpScript;
+
+    IncreaseStatItem[] shopArray;
     private void Awake()
     {
      TimerText = TimerUI.GetComponent<TextMeshProUGUI>();
@@ -40,7 +42,6 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void EnterLevelUpScreen()
     {
-        ScriptableObject[] shopArray;
         shopArray = populateShop();
         Time.timeScale = 0;
         playerController.StopAllCoroutines(); //stops all weapon cooldowns
@@ -55,11 +56,26 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
         GameUI.SetActive(true);
         levelUpUI.SetActive(false);
     }
-    ScriptableObject[] populateShop() //should return the list of the shop
+    IncreaseStatItem[] populateShop() //should return the list of the shop
     {
-        ScriptableObject[] shopArray = { itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)]}; //random items, no validation
+        IncreaseStatItem[] shopArray = { itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)], itemList[Random.Range(0, itemList.Length)]}; //random items, no validation
         return shopArray;
 
+    }
+
+    public void LevelUpB1Press()
+    {
+        passiveItemFunc(shopArray[0]);
+    }
+
+    public void LevelUpB2Press()
+    {
+        passiveItemFunc(shopArray[1]);
+    }
+
+    public void LevelUpB3Press()
+    {
+        passiveItemFunc(shopArray[2]);
     }
 
     public void passiveItemFunc(IncreaseStatItem item)

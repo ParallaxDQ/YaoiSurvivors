@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: GoldBoots
   m_EditorClassIdentifier: 
+  itemName: Gold Boots
   itemSprite: {fileID: -1788286241847763528, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 20
   statToBeIncreased: 2

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: SilverBoots
   m_EditorClassIdentifier: 
+  itemName: Silver Boots
   itemSprite: {fileID: -6706242560555978904, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
   statIncrease: 10
   statToBeIncreased: 2

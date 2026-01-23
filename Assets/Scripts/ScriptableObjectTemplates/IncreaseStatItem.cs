@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "IncreaseStatItem", menuName = "Scriptable Objects/IncreaseStatItem")]
 public class IncreaseStatItem : ScriptableObject
 {
+    public string itemName;
     public Sprite itemSprite;
     public float statIncrease;
     string itemType = "Passive"; //if item type is passive run passiveItemFunc
