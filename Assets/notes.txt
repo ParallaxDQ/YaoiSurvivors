@@ -1,0 +1,20 @@
+LevelUpScreen Buttons
+--get hb reactions to the items on pointer enter
+--reset reactions when pointer exit.
+
+WhenLevelButtonPress
+--if passive item, add stats directly to playerStats
+--if active, take the ID and activate that item, set the damage to the new value.
+
+EnterLevelUpScreen
+--Write the current player stats to the text field
+--pick random items to populate with
+
+Items
+--add affection rating of each hb to each item
+--add item types
+
+LevelUpMenuScript reqs
+
+--pass in the populated shop
+--Set each button to relevant name/image
