@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2461,8 +2461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239, y: 160}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -265, y: 148.2}
+  m_SizeDelta: {x: 148, y: 45.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105136964
 MonoBehaviour:
@@ -2517,7 +2517,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2549,7 +2549,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.4159389, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3932,6 +3932,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 22b002a4ea1304542afbd9eec29ed070, type: 2}
   - {fileID: 11400000, guid: c59996d8ae30f22479e41c2744dd8f5c, type: 2}
   LevelUpMenu: {fileID: 1694647302}
+  button1: {fileID: 1719668926}
+  button2: {fileID: 301384133}
+  button3: {fileID: 1533169183}
   timer: 0
 --- !u!1 &1888221073
 GameObject:

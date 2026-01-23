@@ -24,6 +24,10 @@ public class LevelUpMenuScript : MonoBehaviour
     [SerializeField] Sprite[] jackPortraits;
     [SerializeField] Sprite[] pewdPortraits;
 
+    private void Awake()
+    {
+        playerStats = player.GetComponent<PlayerStats>();
+    }
     public void MouseOverItem()
     {
         
@@ -35,7 +39,6 @@ public class LevelUpMenuScript : MonoBehaviour
         button1.GetComponent<OptionButtonScript>().SetAssets(shopArray[0]);
         button2.GetComponent<OptionButtonScript>().SetAssets(shopArray[1]);
         button3.GetComponent<OptionButtonScript>().SetAssets(shopArray[2]);
-
         statText.GetComponent<TextMeshProUGUI>().text = playerStats.StatStringGen();
     }
 }

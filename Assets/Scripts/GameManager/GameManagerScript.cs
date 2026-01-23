@@ -21,6 +21,10 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     IncreaseStatItem[] shopArray;
 
+    [SerializeField] GameObject button1;
+    [SerializeField] GameObject button2;
+    [SerializeField] GameObject button3;
+
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -47,7 +51,6 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
      playerStats = player.GetComponent<PlayerStats>();
      playerController = player.GetComponent<PlayerController>();
      levelUpScript = LevelUpMenu.GetComponent<LevelUpMenuScript>();
-        EnterLevelUpScreen(); //remove before end
     }
     
     public float timer = 0;
@@ -90,19 +93,19 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void LevelUpB1Press()
     {
-        passiveItemFunc(shopArray[0]);
+        passiveItemFunc(button1.GetComponent<OptionButtonScript>().containedItem);
         ExitLevelUpScreen();
     }
 
     public void LevelUpB2Press()
     {
-        passiveItemFunc(shopArray[1]);
+        passiveItemFunc(button2.GetComponent<OptionButtonScript>().containedItem);
         ExitLevelUpScreen();
     }
 
     public void LevelUpB3Press()
     {
-        passiveItemFunc(shopArray[2]);
+        passiveItemFunc(button3.GetComponent<OptionButtonScript>().containedItem);
         ExitLevelUpScreen();
     }
 
@@ -125,6 +128,9 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
                 playerStats.defense += statIncrease;
                 break;
         }
+        playerStats.AddRelation(item.ma_affection,"Mark");
+        playerStats.AddRelation(item.j_affection, "Jack");
+        playerStats.AddRelation(item.p_affection, "Pewd");
     }
 
     public enum stats

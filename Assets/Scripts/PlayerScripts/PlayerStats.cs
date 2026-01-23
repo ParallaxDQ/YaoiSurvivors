@@ -61,16 +61,17 @@ public class PlayerStats : MonoBehaviour
 
     public void AddEXP(float expGain)
     {
+        Image expImage = expBar.GetComponent<Image>();
         experience += expGain;
         expImage.fillAmount = experience / 100;
-        if (experience>100)
+        if (experience>=100)
         {
             experience -= 100;
             GMS.EnterLevelUpScreen();
         }
     }
 
-    public void AddRelation(int relationGain, string name)
+    public void AddRelation(float relationGain, string name)
     {
         switch (name)
         {
