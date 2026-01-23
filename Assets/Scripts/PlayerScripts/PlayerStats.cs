@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class PlayerStats : MonoBehaviour
 {
@@ -26,6 +28,8 @@ public class PlayerStats : MonoBehaviour
     public float m_relationship;
     public float j_relationship;
     public float p_relationship;
+
+    private bool[] relationshipEventsCompleted = new bool[3];
 
 
     [SerializeField] GameObject gameManager;
@@ -66,34 +70,62 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void AddRelation(int relationGain,string name) //prob better to use enum for the name, but alas
+    public void AddRelation(int relationGain, string name)
     {
         switch (name)
         {
             case "Mark":
                 m_relationship += relationGain;
-                if (m_relationship < 10) //relation maxes at 10
+                if (m_relationship >= 10) // Changed < to >=
                 {
                     m_relationship = 10;
+                    CheckRelationshipEvent("Mark", 0);
                 }
                 break;
 
             case "Jack":
                 j_relationship += relationGain;
-                if (j_relationship < 10) //relation maxes at 10
+                if (j_relationship >= 10)
                 {
                     j_relationship = 10;
+                    CheckRelationshipEvent("Jack", 1);
                 }
                 break;
 
             case "Pewd":
                 p_relationship += relationGain;
-                if (p_relationship < 10) //relation maxes at 10
+                if (p_relationship >= 10)
                 {
                     p_relationship = 10;
+                    CheckRelationshipEvent("Pewd", 2);
                 }
                 break;
         }
+    }
+
+    void CheckRelationshipEvent(string characterName, int index)
+    {
+        // Only trigger if haven't seen this event yet
+        if (!relationshipEventsCompleted[index] && PlayerPrefs.GetInt($"VN_Completed_{characterName}", 0) == 0)
+        {
+            relationshipEventsCompleted[index] = true;
+            TriggerVisualNovel(characterName);
+        }
+    }
+
+    void TriggerVisualNovel(string characterName)
+    {
+        // Save which character triggered this
+        PlayerPrefs.SetString("VN_Character", characterName);
+
+        // Save current scene name to return to
+        PlayerPrefs.SetString("VN_ReturnScene", SceneManager.GetActiveScene().name);
+
+        // Pause the game
+        Time.timeScale = 0;
+
+        // Load visual novel scene additively (keeps current scene loaded but paused)
+        SceneManager.LoadScene("VisualNovel", LoadSceneMode.Additive);
     }
 
     public string StatStringGen()

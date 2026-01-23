@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour //big mistake, game manager is now more of a level up screen facilitator than anything else.
 {
@@ -19,6 +20,26 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     LevelUpMenuScript levelUpScript;
 
     IncreaseStatItem[] shopArray;
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // When returning from VN, unpause
+        if (scene.name != "VisualNovelScene")
+        {
+            Time.timeScale = 1;
+        }
+    }
+
     private void Awake()
     {
      TimerText = TimerUI.GetComponent<TextMeshProUGUI>();

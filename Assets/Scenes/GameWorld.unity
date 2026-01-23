@@ -894,6 +894,7 @@ GameObject:
   - component: {fileID: 301384137}
   - component: {fileID: 301384136}
   - component: {fileID: 301384135}
+  - component: {fileID: 301384138}
   m_Layer: 5
   m_Name: Option2Button
   m_TagString: Untagged
@@ -1016,6 +1017,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301384133}
   m_CullTransparentMesh: 1
+--- !u!114 &301384138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301384133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5ff2f55e0ed8543816c1e185e3255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 92175619}
+  buttonImage: {fileID: 1174524059}
+  containedItem: {fileID: 0}
 --- !u!1 &319902431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +1989,60 @@ RectTransform:
   m_AnchoredPosition: {x: -309, y: -135}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &793099221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793099223}
+  - component: {fileID: 793099222}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &793099222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793099221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6c930ce1185b34ba1a106f78248d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - enemyToSpawn: {fileID: 11400000, guid: 2620b5e9b905cc446a97d5f3fc677648, type: 2}
+    enemyCount: 10
+    spawnMinutes: 0
+    spawnSeconds: 3
+    hasSpawned: 0
+  enemyPrefab: {fileID: 3165072319496935606, guid: b30daca0ce7665c428ce710573aff2e1, type: 3}
+  player: {fileID: 2000155638}
+  spawnDistance: 15
+  spawnSpread: 5
+--- !u!4 &793099223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793099221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 549.5908, y: 409.89212, z: -5.834646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &887316848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,6 +3107,7 @@ GameObject:
   - component: {fileID: 1533169187}
   - component: {fileID: 1533169186}
   - component: {fileID: 1533169185}
+  - component: {fileID: 1533169188}
   m_Layer: 5
   m_Name: Option3Button
   m_TagString: Untagged
@@ -3159,6 +3230,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533169183}
   m_CullTransparentMesh: 1
+--- !u!114 &1533169188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533169183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5ff2f55e0ed8543816c1e185e3255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 1205500121}
+  buttonImage: {fileID: 1932923201}
+  containedItem: {fileID: 0}
 --- !u!1 &1658035302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,14 +3561,14 @@ MonoBehaviour:
   button1: {fileID: 1719668926}
   button2: {fileID: 301384133}
   button3: {fileID: 1533169183}
-  button1Image: {fileID: 1487759186}
-  button2Image: {fileID: 1174524059}
-  button3Image: {fileID: 1932923201}
-  button1Text: {fileID: 274784724}
-  button2Text: {fileID: 92175619}
-  button3Text: {fileID: 92175619}
   statText: {fileID: 477639242}
   player: {fileID: 2000155634}
+  markPortrait: {fileID: 0}
+  jackPortrait: {fileID: 0}
+  pewdPortrait: {fileID: 0}
+  markPortraits: []
+  jackPortraits: []
+  pewdPortraits: []
 --- !u!1 &1719668926
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,6 +3582,7 @@ GameObject:
   - component: {fileID: 1719668929}
   - component: {fileID: 1719668928}
   - component: {fileID: 1719668931}
+  - component: {fileID: 1719668932}
   m_Layer: 5
   m_Name: Option1Button
   m_TagString: Untagged
@@ -3635,6 +3722,21 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &1719668932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719668926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5ff2f55e0ed8543816c1e185e3255c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 274784724}
+  buttonImage: {fileID: 1487759186}
+  containedItem: {fileID: 0}
 --- !u!1 &1791289810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,9 +4224,10 @@ GameObject:
   - component: {fileID: 2000155636}
   - component: {fileID: 2000155635}
   - component: {fileID: 2000155639}
+  - component: {fileID: 2000155640}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4269,6 +4372,19 @@ MonoBehaviour:
   p_relationship: 0
   gameManager: {fileID: 1845146843}
   expBar: {fileID: 1663954716}
+--- !u!114 &2000155640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000155634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df9087e75d7c7c4d8af7ecb6f9acfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &2023603513
 GameObject:
   m_ObjectHideFlags: 0
@@ -54836,3 +54952,4 @@ SceneRoots:
   - {fileID: 1845146844}
   - {fileID: 496617740}
   - {fileID: 43459825}
+  - {fileID: 793099223}

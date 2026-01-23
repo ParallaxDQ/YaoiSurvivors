@@ -10,35 +10,31 @@ public class LevelUpMenuScript : MonoBehaviour
     [SerializeField] GameObject button2;
     [SerializeField] GameObject button3;
 
-    [Header("Button Child Images")]
-    [SerializeField] GameObject button1Image;
-    [SerializeField] GameObject button2Image;
-    [SerializeField] GameObject button3Image;
-
-    [Header("Button Text")]
-    [SerializeField] GameObject button1Text;
-    [SerializeField] GameObject button2Text;
-    [SerializeField] GameObject button3Text;
-    TextMeshProUGUI button1TextTMP;
-    TextMeshProUGUI button2TextTMP;
-    TextMeshProUGUI button3TextTMP;
-
-
     [Header("Misc Serialized")]
     [SerializeField] GameObject statText;
     [SerializeField] GameObject player;
     PlayerStats playerStats;
 
-    public void ReadyShop(IncreaseStatItem[] shopArray)
-    { //cant use getcomponent on scriptableobj, must access container directly.
-        button1Image.GetComponent<Image>().sprite = shopArray[0].itemSprite;
-        button2Image.GetComponent<Image>().sprite = shopArray[1].itemSprite;
-        button3Image.GetComponent<Image>().sprite = shopArray[2].itemSprite;
+    [Header("Portraits")]
+    [SerializeField] GameObject markPortrait;
+    [SerializeField] GameObject jackPortrait;
+    [SerializeField] GameObject pewdPortrait;
+    [Space]
+    [SerializeField] Sprite[] markPortraits; //these should each have 5 portraits
+    [SerializeField] Sprite[] jackPortraits;
+    [SerializeField] Sprite[] pewdPortraits;
 
-        //additionally need to change the button text to the item name.
-        button1Text.GetComponent<TextMeshProUGUI>().text = shopArray[0].itemName;
-        button2Text.GetComponent<TextMeshProUGUI>().text = shopArray[1].itemName;
-        button3Text.GetComponent<TextMeshProUGUI>().text = shopArray[2].itemName;
+    public void MouseOverItem()
+    {
+        
+    }
+
+
+    public void ReadyShop(IncreaseStatItem[] shopArray)
+    {
+        button1.GetComponent<OptionButtonScript>().SetAssets(shopArray[0]);
+        button2.GetComponent<OptionButtonScript>().SetAssets(shopArray[1]);
+        button3.GetComponent<OptionButtonScript>().SetAssets(shopArray[2]);
 
         statText.GetComponent<TextMeshProUGUI>().text = playerStats.StatStringGen();
     }
