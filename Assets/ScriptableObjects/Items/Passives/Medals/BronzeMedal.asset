@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: BronzeMedal
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 5350971776848001395, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
+  itemSprite: {fileID: 6453004461836068893, guid: cfc2d471c2a825049a7fa32b5eb159bb, type: 3}
   statIncrease: 5
   statToBeIncreased: 1
-  ma_affection: 0
-  j_affection: 0
-  p_affection: 0

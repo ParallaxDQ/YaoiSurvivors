@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
   m_Name: SilverArmour
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -6622249589253304972, guid: d82744ea1d5603445ac93e3fe921dc8d, type: 3}
+  itemSprite: {fileID: 8233621155135457134, guid: e1c050b721ebb8d408e78c353890e52b, type: 3}
   statIncrease: 10
   statToBeIncreased: 3
-  ma_affection: 0
-  j_affection: 0
-  p_affection: 0

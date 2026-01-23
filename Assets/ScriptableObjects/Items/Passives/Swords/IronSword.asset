@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56e93d249d2875e498d10b63eb0bfa16, type: 3}
-  m_Name: SilverMedal
+  m_Name: IronSword
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 902927102232843685, guid: 565372cc47a0e554b958dbcc06538386, type: 3}
+  itemSprite: {fileID: -5811498811225418235, guid: e88bf5cf9f8f8fe4bb08b62e7bba06be, type: 3}
   statIncrease: 10
-  statToBeIncreased: 1
+  statToBeIncreased: 0
