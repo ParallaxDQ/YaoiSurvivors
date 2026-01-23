@@ -25,6 +25,7 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     [SerializeField] GameObject button2;
     [SerializeField] GameObject button3;
 
+    
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -44,6 +45,7 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
         }
     }
 
+    
     private void Awake()
     {
      TimerText = TimerUI.GetComponent<TextMeshProUGUI>();
@@ -66,6 +68,7 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
 
     public void EnterLevelUpScreen()
     {
+        ScriptableObject[] shopArray;
         shopArray = populateShop();
         Time.timeScale = 0;
         playerController.StopAllCoroutines(); //stops all weapon cooldowns
@@ -77,11 +80,8 @@ public class GameManagerScript : MonoBehaviour //big mistake, game manager is no
     public void ExitLevelUpScreen()
     {
         Time.timeScale = 1;
-        Debug.Log("Check1");
         playerController.StartActiveWeapons();
-        Debug.Log("Check2");
         GameUI.SetActive(true);
-        Debug.Log("Check3");
         levelUpUI.SetActive(false);
     }
     IncreaseStatItem[] populateShop() //should return the list of the shop
