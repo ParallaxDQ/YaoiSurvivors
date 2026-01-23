@@ -1,9 +1,40 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static bool gameIsPaused = false;
+    [SerializeField] GameObject pauseMenuUI;
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (gameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1;
+        gameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0;
+        gameIsPaused = true;
+    }
+
     public void ContinueGame()
         {
             //use to unpause the game

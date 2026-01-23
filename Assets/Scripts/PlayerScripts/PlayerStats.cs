@@ -1,8 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    public float curHealth;
+    public float maxHealth;
 
     public float moveSpeed;
 
@@ -24,6 +27,13 @@ public class PlayerStats : MonoBehaviour
     public float j_relationship;
     public float p_relationship;
 
+
+    [SerializeField] GameObject gameManager;
+    GameManagerScript GMS;
+
+    [SerializeField] GameObject expBar;
+    Image expImage;
+
     private void Awake()
     {
         //reset stats
@@ -34,23 +44,29 @@ public class PlayerStats : MonoBehaviour
         attackDam = 0;
         moveSpeed = 100;
 
+        maxHealth = 10;
+        curHealth = maxHealth;
+
         //reset relationships
         m_relationship = 0;
         j_relationship = 0;
         p_relationship = 0;
+
+        GMS = gameManager.GetComponent<GameManagerScript>();
     }
 
-    private void AddEXP(float expGain)
+    public void AddEXP(float expGain)
     {
         experience += expGain;
+        expImage.fillAmount = experience / 100;
         if (experience>100)
         {
             experience -= 100;
-            //Trigger the LevelUp menu
+            GMS.EnterLevelUpScreen();
         }
     }
 
-    private void AddRelation(int relationGain,string name) //prob better to use enum for the name, but alas
+    public void AddRelation(int relationGain,string name) //prob better to use enum for the name, but alas
     {
         switch (name)
         {

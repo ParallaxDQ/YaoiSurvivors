@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     //player field defs
     [SerializeField] float moveSpeed;
     Rigidbody2D p_rbody;
+    PlayerStats p_stats;
     bool m_facingRight;
     [SerializeField] GameObject[] weapons;
 
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         p_rbody = GetComponent<Rigidbody2D>();
+        p_stats = GetComponent<PlayerStats>();
         m_facingRight = true;
         StartAllWeapons();
     }
@@ -28,6 +30,10 @@ public class PlayerController : MonoBehaviour
         h_mov = Input.GetAxisRaw("Horizontal");
         FlipCheck();
         p_rbody.linearVelocity = Vector3.Normalize(new Vector3(h_mov,v_mov)) * moveSpeed * Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.RightControl))
+        {
+            p_stats.AddEXP(60);
+        }
     }
 
     void Flip()
@@ -41,8 +47,6 @@ public class PlayerController : MonoBehaviour
            AbstractWeapon weaponScript = weapons[i].GetComponent<AbstractWeapon>();
            weaponScript.offset *= -1;
         }
-        //weapon1.transform.localScale = new Vector3(temp, weapon1.transform.localScale.y, weapon1.transform.localScale.z);
-        print("Flipped");
         
     }
 
